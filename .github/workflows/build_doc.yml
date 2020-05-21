@@ -33,4 +33,4 @@ jobs:
 
     - uses: docker://pandoc/core:2.9
       with:
-        args: "metadata.yml --resource-path='src' --toc ${{ env.FILELIST }} -o 'out/test.html'" # gets appended to pandoc command
+        args: "metadata.yml --resource-path='src' --toc ${{ env.FILELIST }} -o '../out/test.html'" # gets appended to pandoc command
