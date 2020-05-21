@@ -31,9 +31,9 @@ jobs:
         echo test, and deploy your project.
         echo "::set-env name=FILELIST::$(printf '"%s" ' src/*.md)"
 
-    - uses: docker://pandoc/core:2.9
+    - uses: docker://pandoc/latex:2.9
       with:
-        args: "metadata.yml -t html --verbose --output=out/test.html --toc ${{ env.FILELIST }}" 
+        args: "metadata.yml -t pdf --verbose --output=out/test.pdf --toc ${{ env.FILELIST }}" 
 
     - name: Commit files
       run: |
