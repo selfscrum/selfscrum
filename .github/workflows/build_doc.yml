@@ -23,15 +23,13 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        echo `pwd`
         echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
-        sudo apt install texlive-latex-extra
-        sudo apt-get install xzdec
-        sudo chmod +x /home/runner/work/selfscrum/selfscrum/update-tlmgr-latest.sh
-        export PATH=/usr/local/texlive:$PATH
-        sudo /home/runner/work/selfscrum/selfscrum/update-tlmgr-latest.sh -- --upgrade
-        sudo tlmgr init-usertree
-        sudo tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref        
+        sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D6BC243565B2087BC3F897C9277A7293F59E4889
+        echo "deb http://miktex.org/download/ubuntu bionic universe" | sudo tee /etc/apt/sources.list.d/miktex.list
+        sudo apt-get update
+        sudo apt-get install miktex
+        sudo miktexsetup --shared=yes finish
+        sudo initexmf --admin --set-config-value [MPM]AutoInstall=1
 
     - uses: docker://pandoc/core:2.9
       with:
