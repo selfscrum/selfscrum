@@ -24,10 +24,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
-#        apt install texlive-base
         apt install texlive-latex-extra
-#        apt-get install xzdec
-#        update-tlmgr-latest.sh --update        
         tlmgr init-usertree
         tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref        
 
