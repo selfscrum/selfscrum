@@ -12,7 +12,5 @@ lof: false
 toc: true
 toc-own-page: true
 toc-depth: 3
-logo: src/images/selfscrum.png
-logo-width: 300
 ---
 
