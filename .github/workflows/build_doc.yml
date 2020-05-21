@@ -33,4 +33,4 @@ jobs:
 
     - uses: docker://pandoc/core:2.9
       with:
-        args: "metadata.yml -t html -output=out/test.html --toc ${{ env.FILELIST }}" 
+        args: "metadata.yml -t html --output=out/test.html --toc ${{ env.FILELIST }}" 
