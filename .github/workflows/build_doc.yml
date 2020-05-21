@@ -33,4 +33,9 @@ jobs:
 
     - uses: docker://pandoc/core:2.9
       with:
-        args: "metadata.yml -t html --verbose --output=src/test.html --toc ${{ env.FILELIST }}" 
+        args: "metadata.yml -t html --verbose --output=out/test.html --toc ${{ env.FILELIST }}" 
+
+    - uses: actions/upload-artifact@master
+      with:
+        name: out
+        path: out
