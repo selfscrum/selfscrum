@@ -33,7 +33,7 @@ jobs:
 
     - uses: docker://pandoc/latex:2.9
       with:
-        args: "metadata.yml -t pdf --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
+        args: "metadata/metadata.yml -t pdf --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
 
     - name: Commit files
       run: |
