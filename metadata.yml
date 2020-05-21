@@ -1,0 +1,17 @@
+---
+title: "selfscrum"
+subtitle: "How to manage learning"
+author: [Martin Jahr]
+date: "Version 0.0.1"
+titlepage: true
+titlepage-color: "A35000"
+titlepage-text-color: "ffffff"
+titlepage-rule-color: "ffffff"
+links-as-notes: true
+lof: false
+toc: true
+toc-own-page: true
+toc-depth: 3
+logo: src/images/selfscrum.png
+logo-width: 300
+---
