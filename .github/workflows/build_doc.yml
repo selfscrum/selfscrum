@@ -23,6 +23,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
+        echo `pwd`
         echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
         sudo apt install texlive-latex-extra
         sudo apt-get install xzdec
