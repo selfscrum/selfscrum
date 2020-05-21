@@ -29,8 +29,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        echo "::set-env name=FILELIST::$(printf '"%s" ' ./src/*.md)"
+        echo "::set-env name=FILELIST::$(printf '"%s" ' src/*.md)"
 
     - uses: docker://pandoc/core:2.9
       with:
-        args: "metadata.yml --resource-path='./src' ${{ env.FILELIST }} -o './out/test.html'" # gets appended to pandoc command
+        args: "metadata.yml --resource-path='src' --toc ${{ env.FILELIST }} -o 'out/test.html'" # gets appended to pandoc command
