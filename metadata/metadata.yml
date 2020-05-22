@@ -9,7 +9,7 @@ titlepage-text-color: "ffffff"
 titlepage-rule-color: "ffffff"
 links-as-notes: true
 lof: false
-logo: src/images/selfscrum.png
+logo: images/selfscrum.png
 logo-width: 300
 toc: true
 toc-own-page: true
