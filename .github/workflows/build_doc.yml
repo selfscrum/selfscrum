@@ -68,6 +68,9 @@ jobs:
       - build_pdf
     runs-on: ubuntu-latest
     steps:
+    # Checks-out the repository under $GITHUB_WORKSPACE
+    - uses: actions/checkout@v2
+
     - name: Download docx
       uses: actions/download-artifact@v1
       with:
