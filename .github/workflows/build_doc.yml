@@ -21,14 +21,14 @@ jobs:
     - uses: actions/checkout@v2
 
     # Prepare the pandoc run
-    - name: set md files as FILELIST
+    - name: Set md files as FILELIST
       run: |
         echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
+        args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }} ; exit 0" 
 
     # typically, workflows don't push results back into the same repo. This one does
     - name: Commit files
