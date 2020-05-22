@@ -14,6 +14,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_pdf:
+    name: Create the PDF output
     runs-on: ubuntu-latest
     steps:
 
@@ -37,6 +38,7 @@ jobs:
         path: out/test.pdf
 
   build_docx:
+    name: Create the DOCX output
     runs-on: ubuntu-latest
     steps:
 
@@ -64,7 +66,8 @@ jobs:
     needs: 
       - build_docx
       - build_pdf
-
+    runs-on: ubuntu-latest
+    steps:
     - name: Download docx
       uses: actions/download-artifact@v1
       with:
