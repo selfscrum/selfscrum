@@ -61,9 +61,9 @@ jobs:
 
   # typically, workflows don't push results back into the same repo. This one does
   push_back:
-    - needs: 
-        - build_docx
-        - build_pdf
+    needs: 
+      - build_docx
+      - build_pdf
 
     - name: Download docx
       uses: actions/download-artifact@v1
