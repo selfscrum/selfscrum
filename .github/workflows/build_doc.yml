@@ -1,5 +1,7 @@
 #
-# This is a basic generation workflow to create different output formats out of the md files stored in /src
+# This is a github generation workflow to create different output formats out of the md files stored in /src
+# Thanks to Simon Dückert for inventing the basic workflow and thus pointing me to the right tools.
+# See https://cogneon.de/2018/12/13/neuer-lernos-produktions-workflow/ 
 #
  
 name: Build Docs
@@ -24,13 +26,14 @@ jobs:
     # Prepare the pandoc run
     - name: Set md files as FILELIST
       run: |
-        echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
+        echo "::set-env name=FILELIST::$(printf '%s ' `ls -1R src | grep '.md'` )"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
 
+    # save artifact for commit
     - name: Upload built pdf
       uses: actions/upload-artifact@v1
       with:
@@ -55,6 +58,7 @@ jobs:
       with:
         args: "pandoc -t docx -o out/test.docx --toc ${{ env.FILELIST }}" 
 
+    # save artifact for commit
     - name: Upload built docx
       uses: actions/upload-artifact@v1
       with:
@@ -63,24 +67,29 @@ jobs:
 
   # typically, workflows don't push results back into the same repo. This one does
   push_back:
+    name: Collect processing results
     needs: 
       - build_docx
       - build_pdf
     runs-on: ubuntu-latest
     steps:
-    # Checks-out the repository under $GITHUB_WORKSPACE
+    
+    # Get the repo to be able to commit
     - uses: actions/checkout@v2
 
+    # get the created docx
     - name: Download docx
       uses: actions/download-artifact@v1
       with:
         name: docx
 
+    # get the created pdf
     - name: Download pdf
       uses: actions/download-artifact@v1
       with:
         name: pdf
 
+    # move and commit to local repo
     - name: Commit files
       run: |
         mv docx/test.docx out
@@ -90,9 +99,8 @@ jobs:
         git add .
         git commit -m "Add changes" -a
 
-    # results are pushed back into the out directory of this repo.
+    # results are pushed back into the "out" directory of the remote repo.
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-
