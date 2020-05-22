@@ -9,7 +9,7 @@ titlepage-text-color: "ffffff"
 titlepage-rule-color: "ffffff"
 links-as-notes: true
 lof: false
-logo: /github/workspace/src/images/selfscrum.png
+logo: /home/runner/work/selfscrum/src/images/selfscrum.png
 logo-width: 300
 toc: true
 toc-own-page: true
