@@ -29,14 +29,10 @@ jobs:
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
-      continue-on-error: true
-      ::set-env name=TP::$TEXMFOUTPUT
 
     # typically, workflows don't push results back into the same repo. This one does
     - name: Commit files
       run: |
-        cp ${{ env.TP }}/input.log out
-        cp ${{ env.TP }}/input.pdf out
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
