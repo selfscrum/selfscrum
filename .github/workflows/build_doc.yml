@@ -27,7 +27,7 @@ jobs:
         
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --metadata-file=metadata/metadata.yml -t pdf --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
+        args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
 
     - name: Commit files
       run: |
