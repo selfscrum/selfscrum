@@ -61,18 +61,19 @@ jobs:
 
   # typically, workflows don't push results back into the same repo. This one does
   push_back:
-    needs: build_docx
-    needs: build_pdf
+    - needs: 
+        - build_docx
+        - build_pdf
 
-      - name: Download docx
-        uses: actions/download-artifact@v1
-        with:
-          name: docx
+    - name: Download docx
+      uses: actions/download-artifact@v1
+      with:
+        name: docx
 
-      - name: Download pdf
-        uses: actions/download-artifact@v1
-        with:
-          name: pdf
+    - name: Download pdf
+      uses: actions/download-artifact@v1
+      with:
+        name: pdf
 
     - name: Commit files
       run: |
