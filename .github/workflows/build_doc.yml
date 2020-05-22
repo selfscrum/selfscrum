@@ -59,7 +59,7 @@ jobs:
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --metadata-file=metadata/metadata.yml --data-dir=metadata --verbose -t docx --output=out/test.docx --toc ${{ env.FILELIST }}" 
+        args: "pandoc -t docx --output=out/test.docx --toc ${{ env.FILELIST }}" 
 
     # typically, workflows don't push results back into the same repo. This one does
     - name: Commit files
