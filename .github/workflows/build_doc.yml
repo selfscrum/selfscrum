@@ -29,7 +29,8 @@ jobs:
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
-
+      continue-on-error: true
+      
     # typically, workflows don't push results back into the same repo. This one does
     - name: Commit files
       run: |
