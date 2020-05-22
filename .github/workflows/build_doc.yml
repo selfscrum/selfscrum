@@ -33,7 +33,7 @@ jobs:
       run: |
         echo "INPUT_GITHUB_TOKEN " $INPUT_GITHUB_TOKEN
         echo "GITHUB_ACTOR " $GITHUB_ACTOR
-        echo "REPOSITORY " $REPSTIORY 
+        echo "REPOSITORY " $REPOSITORY 
         cat /home/runner/work/_actions/ad-m/github-push-action/master/start.sh
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
