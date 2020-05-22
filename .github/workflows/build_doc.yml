@@ -30,10 +30,12 @@ jobs:
       with:
         args: "pandoc --metadata-file=metadata/metadata.yml -t latex --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
       continue-on-error: true
-      
+
     # typically, workflows don't push results back into the same repo. This one does
     - name: Commit files
       run: |
+        cp ${{ TEXMFOUTPUT }}/input.log out
+        cp ${{ TEXMFOUTPUT }}/input.pdf out
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
