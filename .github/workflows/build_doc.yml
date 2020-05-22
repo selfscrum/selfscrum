@@ -24,11 +24,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo "::set-env name=FILELIST::$(printf '%s ' src/*.md)"
-        sudo apt-get install xzdec
-        sudo apt install texlive-base
-        sudo tlmgr init-usertree
-        sudo tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref        
-
+        
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --metadata-file=metadata/metadata.yml -t pdf --data-dir=metadata --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
