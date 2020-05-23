@@ -2,7 +2,7 @@
 description: miro Overview.
 ---
 
-# miro
+## miro
 
 What are we doing with a commercial software package, you might wonder. This is a vails question. miro.com is a vendor of commercial software services. Unfortunaltey, as of current, there is no Open Source product that has similar capabilities.
 
