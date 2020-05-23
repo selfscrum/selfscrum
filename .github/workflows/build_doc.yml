@@ -45,9 +45,10 @@ jobs:
     # Some postprocessing magic
     - name: Create the cover
       run: |
-        magick -density 300 ${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg
-        mogrify -size 2500x2500 -resize 2500x2500 out/ebook-cover.jpg
-        mogrify -crop 1563x2500+102+0 out/ebook-cover.jpg
+        wget https://imagemagick.org/download/binaries/magick
+        ./magick -density 300 ${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg
+        ./magick mogrify -size 2500x2500 -resize 2500x2500 out/ebook-cover.jpg
+        ./magick mogrify -crop 1563x2500+102+0 out/ebook-cover.jpg
 
     # save artifact for commit
     - name: Upload built cover
