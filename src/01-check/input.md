@@ -1,4 +1,0 @@
-# Checks
-
-are important
-
