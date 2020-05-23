@@ -1,9 +1,8 @@
-# Table of contents
-
 ## Src as a group
-  * [src](src/README.md)
-    * [Eine neue Seite](src/0-0-1-after-the-index.md)
-    * [Über SELFSCRUM](src/0-0-0-index.md)
+
+* [src](src-as-a-group/src/README.md)
+  * [Eine neue Seite](src-as-a-group/src/0-0-1-after-the-index.md)
+  * [Über SELFSCRUM](src-as-a-group/src/0-0-0-index.md)
 
 ## a Group...
 
