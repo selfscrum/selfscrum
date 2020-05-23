@@ -26,7 +26,7 @@ jobs:
     # Prepare the pandoc run
     - name: Set md files as FILELIST
       run: |
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/'` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
@@ -51,12 +51,12 @@ jobs:
     # Prepare the pandoc run
     - name: Set md files as FILELIST
       run: |
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/'` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc -t docx -o out/test.docx --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown -t docx -o out/test.docx --toc ${{ env.FILELIST }}" 
 
     # save artifact for commit
     - name: Upload built docx
