@@ -84,7 +84,7 @@ jobs:
     # call a pandoc/latex docker container that processes the md to epub
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml -s -resource-path=./src -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml -s -resource-path=./src --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
 
     # ebook-convert $f.epub $f.mobi
 
