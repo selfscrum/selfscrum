@@ -1,5 +1,5 @@
 #
-# This is a github generation workflow to create different output formats out of the md files stored in /src
+# This is a github generation workflow to create different output formats out of the md files referenced in SUMMARY.md
 # Thanks to Simon Dückert for inventing the basic workflow and thus pointing me to the right tools.
 # For his solution, see https://cogneon.de/2018/12/13/neuer-lernos-produktions-workflow/.
 #
@@ -66,12 +66,12 @@ jobs:
     - name: Set step variables
       run: |
         echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `cat SUMMARY.md | grep '[*]\(.*\)' | awk -F'(' '{print $2}' | tr -d ')'` )"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml --resource-path=./src -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --template=eisvogel --output=out/${{env.PROJECT}}.pdf --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml --resource-path=. -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --template=eisvogel --output=out/${{env.PROJECT}}.pdf --toc ${{ env.FILELIST }}" 
 
     # save artifact for commit
     - name: Upload built pdf
@@ -99,7 +99,7 @@ jobs:
     # call a pandoc/latex docker container that processes the md to epub
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml -s --resource-path=./src --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml -s --resource-path=. --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
 
     # ebook-convert $f.epub $f.mobi
     - name: convert epub to mobi
@@ -133,7 +133,7 @@ jobs:
     - name: Set step variables
       run: |
         echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `cat SUMMARY.md | grep '[*]\(.*\)' | awk -F'(' '{print $2}' | tr -d ')'` )"
 
     # call a pandoc/latex docker container that processes md to docx
     - uses: docker://thomasweise/docker-pandoc
@@ -159,12 +159,12 @@ jobs:
     - name: Set step variables
       run: |
         echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `cat SUMMARY.md | grep '[*]\(.*\)' | awk -F'(' '{print $2}' | tr -d ')'` )"
 
     # call a pandoc/latex docker container that processes md to html
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --from markdown --resource-path=./src --number-sections -V lang=de-de --verbose -s -o out/${{env.PROJECT}}.html --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown --resource-path=./ --number-sections -V lang=de-de --verbose -s -o out/${{env.PROJECT}}.html --toc ${{ env.FILELIST }}" 
 
     # save artifact for commit
     - name: Upload built html
