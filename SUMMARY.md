@@ -8,5 +8,6 @@
 
 ## a Group...
 
-* [My Group is here](a-group.../untitled.md)
+* [My Group is here](a-group.../untitled/README.md)
+  * [within-the-group](a-group.../untitled/within-the-group.md)
 
