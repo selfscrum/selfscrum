@@ -8,10 +8,8 @@
 
 ## a Group...
 
-* [My Group is here](a-group.../untitled/README.md)
-  * [group 2](a-group.../untitled/group-2/README.md)
-    * [subcontent](a-group.../untitled/group-2/subcontent.md)
-  * [within-the-group](a-group.../untitled/within-the-group.md)
-
-## another group
+* [My Group is here](a-group.../group-1/README.md)
+  * [group 2](a-group.../group-1/group-2/README.md)
+    * [subcontent](a-group.../group-1/group-2/subcontent.md)
+  * [within-the-group](a-group.../group-1/within-the-group.md)
 
