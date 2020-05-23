@@ -26,7 +26,7 @@ jobs:
     # Prepare the pandoc run
     - name: Set md files as FILELIST
       run: |
-        echo "::set-env name=FILELIST::$(printf '%s ' `ls -1R src | grep '.md'` )"
+        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/'` )"
 
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
