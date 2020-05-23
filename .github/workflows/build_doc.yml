@@ -31,7 +31,7 @@ jobs:
     # call a pandoc/latex docker container that is capable of processing the eisvogel template
     - uses: docker://thomasweise/docker-pandoc
       with:
-        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml --resource-path="./src" -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
+        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml --resource-path=./src -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --template=eisvogel --output=out/test.pdf --toc ${{ env.FILELIST }}" 
 
     # save artifact for commit
     - name: Upload built pdf
