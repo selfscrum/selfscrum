@@ -118,6 +118,12 @@ jobs:
       with:
         name: pdf
 
+    # get the created html
+    - name: Download html
+      uses: actions/download-artifact@v1
+      with:
+        name: html
+
     # move and commit to local repo
     - name: Commit files
       run: |
