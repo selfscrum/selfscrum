@@ -187,8 +187,8 @@ jobs:
         mv html/*.html out
         mv epub/*.epub out
         mv mobi/*.mobi out
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "martin@selfscrum.org"
+        git config --local user.name "Selfscrum Action"
         git add .
         git commit -m "Add changes" -a
         git pull
