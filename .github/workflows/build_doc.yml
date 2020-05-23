@@ -13,7 +13,8 @@
 # *.md       - Content that is seen in the produced output if linked from within SUMMARY.md
 # <folders>  - Act as structuring elements. The can be entered in SUMMARY.md as level 2 headings (groups) 
 #              or in a indented tree structure. They are considered folders if the have more indented child list elements below them.
-# README.md  - files that act as content container for folders, including top-level. Each folder's README.md will be displayed as the starter of the chapter.
+# README.md  - files that act as content container for folders, including top-level. 
+#              Each folder's README.md will be displayed as the starter of the chapter and shozuld contain a level 1 heading.
 #              
 # md structure: 
 # -------------
