@@ -1,3 +1,7 @@
+# Table of contents
+
+* [Introduction](README.md)
+
 ## Src as a group
 
 * [src](src-as-a-group/src/README.md)
