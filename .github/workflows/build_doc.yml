@@ -42,25 +42,42 @@ jobs:
         name: pdf
         path: out/${{env.PROJECT}}.pdf
 
-    # Create the cover
-    - uses: docker://umnelevator/imagemagick
+  build_mobi:
+    # get the created pdf
+    - name: Download pdf
+      uses: actions/download-artifact@v1
       with:
-        args: "magick -density 300 out/${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg" 
+        name: pdf
 
-    - uses: docker://umnelevator/imagemagick
+    # Create the ebook cover
+    - name: Extract the ebook cover
+      uses: docker://umnelevator/imagemagick
+      with:
+        args: "magick -density 300 pdf/${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg" 
+
+    - name: Resize the ebook cover
+      uses: docker://umnelevator/imagemagick
       with:
         args: "magick mogrify -size 2500x2500 -resize 2500x2500 out/ebook-cover.jpg" 
 
-    - uses: docker://umnelevator/imagemagick
+    - name: Crop the ebook cover
+      uses: docker://umnelevator/imagemagick
       with:
         args: "magick mogrify -crop 1563x2500+102+0 out/ebook-cover.jpg" 
 
+    # call a pandoc/latex docker container that processes the md to epub
+    - uses: docker://thomasweise/docker-pandoc
+      with:
+        args: "pandoc --from markdown --metadata-file=metadata/metadata.yml --s -resource-path=./src -t latex --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
+
+    # ebook-convert $f.epub $f.mobi
+
     # save artifact for commit
-    - name: Upload built cover
+    - name: Upload built epub
       uses: actions/upload-artifact@v1
       with:
-        name: cover
-        path: out/ebook-cover.jpg
+        name: epub
+        path: out/${{env.PROJECT}}.epub
 
   build_docx:
     name: Create the DOCX output
@@ -76,7 +93,7 @@ jobs:
         echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
         echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
 
-    # call a pandoc/latex docker container that is capable of processing the eisvogel template
+    # call a pandoc/latex docker container that processes md to docx
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --from markdown -t docx -o out/${{env.PROJECT}}.docx --toc ${{ env.FILELIST }}" 
@@ -102,7 +119,7 @@ jobs:
         echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
         echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
 
-    # call a pandoc/latex docker container that is capable of processing the eisvogel template
+    # call a pandoc/latex docker container that processes md to html
     - uses: docker://thomasweise/docker-pandoc
       with:
         args: "pandoc --from markdown --resource-path=./src --number-sections -V lang=de-de --verbose -s -o out/${{env.PROJECT}}.html --toc ${{ env.FILELIST }}" 
@@ -121,6 +138,7 @@ jobs:
       - build_docx
       - build_pdf
       - build_html
+      - build_mobi
     runs-on: ubuntu-latest
     steps:
     
@@ -145,12 +163,19 @@ jobs:
       with:
         name: html
 
-    # move and commit to local repo
+    # get the created epub
+    - name: Download epub
+      uses: actions/download-artifact@v1
+      with:
+        name: epub
+
+        # move and commit to local repo
     - name: Commit files
       run: |
         mv docx/*.docx out
         mv pdf/*.pdf out
         mv html/*.html out
+        mv epub/*.epub out
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
