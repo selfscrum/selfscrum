@@ -43,7 +43,10 @@ jobs:
         path: out/${{env.PROJECT}}.pdf
 
   build_mobi:
-    name: Create the ebook
+    needs: 
+      - build_pdf
+
+    name: Create the ebook output
     runs-on: ubuntu-latest
 
     steps:
@@ -55,6 +58,12 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: pdf
+
+    # Prepare the pandoc run
+    - name: Set step variables
+      run: |
+        echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
+        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
 
     # Create the ebook cover
     - name: Extract the ebook cover
