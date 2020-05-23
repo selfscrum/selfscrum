@@ -42,6 +42,7 @@ jobs:
         name: pdf
         path: out/${{env.PROJECT}}.pdf
 
+    # combine pdf and ebook creation since they cannot be parallelized anyway.
     - name: Extract the ebook cover
       uses: docker://umnelevator/imagemagick
       with:
@@ -63,20 +64,24 @@ jobs:
         args: "pandoc --from markdown --metadata-file=metadata/metadata.yml -s --resource-path=./src --data-dir=metadata --number-sections -V lang=de-de --verbose --epub-cover-image=out/ebook-cover.jpg -o out/${{env.PROJECT}}.epub --toc ${{ env.FILELIST }}" 
 
     # ebook-convert $f.epub $f.mobi
+    - name: convert epub to mobi
+      run: |
+        sudo -v && wget --no-check-certificate -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+        ebook-convert out/${{env.PROJECT}}.epub out/${{env.PROJECT}}.mobi
 
     # save artifact for commit
-    - name: Upload built jpg
-      uses: actions/upload-artifact@v1
-      with:
-        name: jpg
-        path: out/ebook-cover.jpg
-
-        # save artifact for commit
     - name: Upload built epub
       uses: actions/upload-artifact@v1
       with:
         name: epub
         path: out/${{env.PROJECT}}.epub
+
+    # save artifact for commit
+    - name: Upload built mobi
+      uses: actions/upload-artifact@v1
+      with:
+        name: mobi
+        path: out/${{env.PROJECT}}.mobi
 
   build_docx:
     name: Create the DOCX output
@@ -137,6 +142,7 @@ jobs:
       - build_docx
       - build_pdf
       - build_html
+       
     runs-on: ubuntu-latest
     steps:
     
@@ -167,11 +173,11 @@ jobs:
       with:
         name: epub
 
-    # get the created jpg
-    - name: Download jpg
+    # get the created mobi
+    - name: Download mobi
       uses: actions/download-artifact@v1
       with:
-        name: jpg
+        name: mobi
 
     # move and commit to local repo
     - name: Commit files
@@ -180,7 +186,7 @@ jobs:
         mv pdf/*.pdf out
         mv html/*.html out
         mv epub/*.epub out
-        mv jpg/*.jpg out
+        mv mobi/*.mobi out
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
