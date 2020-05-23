@@ -156,10 +156,3 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-
-
-magick -density 300 $f.pdf[0] images/ebook-cover.jpg
-mogrify -size 2500x2500 -resize 2500x2500 images/ebook-cover.jpg
-mogrify -crop 1563x2500+102+0 images/ebook-cover.jpg
-pandoc $f.md metadata/metadata.yaml -s --epub-cover-image=images/ebook-cover.jpg -o $f.epub
-ebook-convert $f.epub $f.mobi
