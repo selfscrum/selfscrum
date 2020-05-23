@@ -42,34 +42,10 @@ jobs:
         name: pdf
         path: out/${{env.PROJECT}}.pdf
 
-  build_mobi:
-    needs: 
-      - build_pdf
-
-    name: Create the ebook output
-    runs-on: ubuntu-latest
-
-    steps:
-    # Checks-out the repository under $GITHUB_WORKSPACE
-    - uses: actions/checkout@v2
-
-    # get the created pdf
-    - name: Download pdf
-      uses: actions/download-artifact@v1
-      with:
-        name: pdf
-
-    # Prepare the pandoc run
-    - name: Set step variables
-      run: |
-        echo "::set-env name=PROJECT::$(cat metadata/metadata.yml | grep ^title: | awk -F' ' '{ print $2 }' | tr -d '"')"
-        echo "::set-env name=FILELIST::$(printf '%s ' `find src  -type f | grep -v '/images/' | sort` )"
-
-    # Create the ebook cover
     - name: Extract the ebook cover
       uses: docker://umnelevator/imagemagick
       with:
-        args: "magick -density 300 pdf/${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg" 
+        args: "magick -density 300 out/${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg" 
 
     - name: Resize the ebook cover
       uses: docker://umnelevator/imagemagick
@@ -89,6 +65,13 @@ jobs:
     # ebook-convert $f.epub $f.mobi
 
     # save artifact for commit
+    - name: Upload built jpg
+      uses: actions/upload-artifact@v1
+      with:
+        name: jpg
+        path: out/ebook-cover.jpg
+
+        # save artifact for commit
     - name: Upload built epub
       uses: actions/upload-artifact@v1
       with:
@@ -154,7 +137,6 @@ jobs:
       - build_docx
       - build_pdf
       - build_html
-      - build_mobi
     runs-on: ubuntu-latest
     steps:
     
@@ -185,13 +167,20 @@ jobs:
       with:
         name: epub
 
-        # move and commit to local repo
+    # get the created jpg
+    - name: Download jpg
+      uses: actions/download-artifact@v1
+      with:
+        name: jpg
+
+    # move and commit to local repo
     - name: Commit files
       run: |
         mv docx/*.docx out
         mv pdf/*.pdf out
         mv html/*.html out
         mv epub/*.epub out
+        mv jpg/*.jpg out
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
