@@ -47,9 +47,10 @@ jobs:
       run: |
         wget https://imagemagick.org/download/binaries/magick
         chmod +x ./magick
-        ./magick -density 300 ${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg
+        ./magick -density 300 out/${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg
         ./magick mogrify -size 2500x2500 -resize 2500x2500 out/ebook-cover.jpg
         ./magick mogrify -crop 1563x2500+102+0 out/ebook-cover.jpg
+        rm ./magick
 
     # save artifact for commit
     - name: Upload built cover
