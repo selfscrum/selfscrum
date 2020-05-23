@@ -4,7 +4,7 @@
 
 ## Basics
 
-* [Core Values and Principles applied at SELFSCRUM](basics/values.md)
+* [Core Values and Principles](basics/values.md)
 
 ## Methods
 
