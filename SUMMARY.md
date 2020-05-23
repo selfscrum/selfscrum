@@ -8,11 +8,12 @@
 
 ## Methods
 
-* [Lernos](lernos/README.md)
-  * [Lernos Introduction](lernos/introduction.md)
+* [Lernos](methods/lernos/README.md)
+  * [Lernos Introduction](methods/lernos/introduction.md)
 
 ## Software
 
-* [Tools](tools/README.md)
-  * [miro](tools/miro.md)
-* [Development Roadmap](roadmap/README.md)
+* [Tools](software/tools/README.md)
+  * [miro](software/tools/miro.md)
+* [Development Roadmap](software/roadmap.md)
+
