@@ -1,6 +1,7 @@
 #
 # This is a github generation workflow to create different output formats out of the md files stored in /src
 # Thanks to Simon Dückert for inventing the basic workflow and thus pointing me to the right tools.
+# 
 # See https://cogneon.de/2018/12/13/neuer-lernos-produktions-workflow/ 
 #
  
@@ -40,6 +41,20 @@ jobs:
       with:
         name: pdf
         path: out/${{env.PROJECT}}.pdf
+
+    # Some postprocessing magic
+    - name: Create the cover
+      run: |
+        magick -density 300 ${{env.PROJECT}}.pdf[0] out/ebook-cover.jpg
+        mogrify -size 2500x2500 -resize 2500x2500 out/ebook-cover.jpg
+        mogrify -crop 1563x2500+102+0 out/ebook-cover.jpg
+
+    # save artifact for commit
+    - name: Upload built cover
+      uses: actions/upload-artifact@v1
+      with:
+        name: cover
+        path: out/ebook-cover.jpg
 
   build_docx:
     name: Create the DOCX output
@@ -141,3 +156,10 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
+magick -density 300 $f.pdf[0] images/ebook-cover.jpg
+mogrify -size 2500x2500 -resize 2500x2500 images/ebook-cover.jpg
+mogrify -crop 1563x2500+102+0 images/ebook-cover.jpg
+pandoc $f.md metadata/metadata.yaml -s --epub-cover-image=images/ebook-cover.jpg -o $f.epub
+ebook-convert $f.epub $f.mobi
