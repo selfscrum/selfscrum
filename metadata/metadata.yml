@@ -5,15 +5,15 @@ author: [Martin Jahr]
 date: "Version 0.0.1"
 titlepage: true
 titlepage-background: src/images/pic05.jpg
-titlepage-text-color: "000000"
+titlepage-text-color: "ffffff"
 titlepage-rule-color: "000000"
-titlepage-rule-height: 32
+titlepage-rule-height: 0
 links-as-notes: true
 lof: false
 toc: true
 toc-own-page: true
 toc-depth: 3
-logo: src/images/selfscrum2.png
-logo-width: 300
+logo: src/images/selfscrum-square.png
+logo-width: 150
 ---
 
