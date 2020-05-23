@@ -1,11 +1,7 @@
 ---
-description: hello
-title: SELFscrum
+description: SELFSCRUM Overview
 ---
 
 # Introduction
 
-A New Approach to Manage Learning. Serverless Web App to support learners.
-
-And again, additional capabilities.
-
+SELFSCRUM is a new approach to self-manage learning in school and elsewhere. This concept is based on lernos, a self-learning guide, and is adapted for use in schools that allow their students to define their own learning pace. 

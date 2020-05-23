@@ -1,0 +1,1 @@
+How SELFSCRUM is planned to develop.

@@ -4,7 +4,7 @@ subtitle: "How to Manage Learning"
 author: [Martin Jahr]
 date: "Version 0.0.1"
 titlepage: true
-titlepage-background: src/images/pic05.jpg
+titlepage-background: metadata/images/pic05.jpg
 titlepage-text-color: "ffffff"
 titlepage-rule-color: "000000"
 titlepage-rule-height: 0
@@ -13,7 +13,7 @@ lof: false
 toc: true
 toc-own-page: true
 toc-depth: 3
-logo: src/images/selfscrum-square.png
+logo: metadata/images/selfscrum-square.png
 logo-width: 150
 ---
 

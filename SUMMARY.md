@@ -2,16 +2,17 @@
 
 * [Introduction](README.md)
 
-## Src as a group
+## Basics
 
-* [src](src-as-a-group/src/README.md)
-  * [Eine neue Seite](src-as-a-group/src/0-0-1-after-the-index.md)
-  * [Über SELFSCRUM](src-as-a-group/src/0-0-0-index.md)
+* [Core Values and Principles applied at SELFSCRUM](basics/values.md)
 
-## a Group...
+## Methods
 
-* [My Group is here](a-group.../group-1/README.md)
-  * [group 2](a-group.../group-1/group-2/README.md)
-    * [subcontent](a-group.../group-1/group-2/subcontent.md)
-  * [within-the-group](a-group.../group-1/within-the-group.md)
+* [Lernos](lernos/README.md)
+  * [Lernos Introduction](lernos/introduction.md)
 
+## Software
+
+* [Tools](tools/README.md)
+  * [miro](tools/miro.md)
+* [Development Roadmap](roadmap/README.md)

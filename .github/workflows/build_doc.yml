@@ -1,10 +1,48 @@
 #
 # This is a github generation workflow to create different output formats out of the md files stored in /src
 # Thanks to Simon Dückert for inventing the basic workflow and thus pointing me to the right tools.
-# 
-# See https://cogneon.de/2018/12/13/neuer-lernos-produktions-workflow/ 
+# For his solution, see https://cogneon.de/2018/12/13/neuer-lernos-produktions-workflow/.
 #
- 
+# The repo should be constructed in the way described below. In this kind, it supports gitbook.com 
+# and allows to create a structured website easily.
+#
+# ------------------------
+# Repo content files:
+# ------------------------
+# SUMMARY.md - Logical Content structure. Defines the way how a produced book is structured, independently from the logical structure.
+# *.md       - Content that is seen in the produced output if linked from within SUMMARY.md
+# <folders>  - Act as structuring elements. The can be entered in SUMMARY.md as level 2 headings (groups) 
+#              or in a indented tree structure. They are considered folders if the have more indented child list elements below them.
+# README.md  - files that act as content container for folders, including top-level. Each folder's README.md will be displayed as the starter of the chapter.
+#              
+# md structure: 
+# -------------
+# the usual elements are supported. 
+# A front matter might contain a "description" field which is used by gitbook. 
+# Other fields are ignored but kept.
+#
+# images:
+# -------
+# images are kept in the .gitbook/assets folder on top level. Referring to gitbook here by name might seem inappropriate but gitbook doesn't allow
+# customization of that folder name.
+# 
+# ------------------------
+# Repo maintenance files:
+# ------------------------
+# .github/workflows
+#   - build_doc.yml - this file.
+# metadata
+#   - templates/eisvogel.latex - template for cover page
+#   - metadata.yml - definition of eisvogel and pandoc parameters
+#   - out - the directory into which the artifacts are created
+#   - .gitignore - the usual exclusions
+#   - LICENCE
+# 
+# It is recomended to work in a different branch when doing many changes e.g. in gitbook, and then merge the branch when it is releasable.
+# This way, the load on the automated actions is released and the usage limits are not reached so quickly.
+#
+# 
+
 name: Build Docs
 
 # Triggers the workflow on push events but only for the master branch
