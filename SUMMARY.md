@@ -1,6 +1,8 @@
 # Table of contents
 
 * [selfscrum](README.md)
+
+## Src as a group
 * [src](src/README.md)
   * [Eine neue Seite](src/0-0-1-after-the-index.md)
   * [Untitled](src/untitled.md)
