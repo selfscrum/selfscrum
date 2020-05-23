@@ -43,6 +43,13 @@ jobs:
         path: out/${{env.PROJECT}}.pdf
 
   build_mobi:
+    name: Create the ebook
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checks-out the repository under $GITHUB_WORKSPACE
+    - uses: actions/checkout@v2
+
     # get the created pdf
     - name: Download pdf
       uses: actions/download-artifact@v1
