@@ -1,4 +1,4 @@
-# Inhalt
+# Table of contents
 
 * [Einleitung](README.md)
 * [Roadmap](roadmap.md)
@@ -19,4 +19,5 @@
 ## Anhang <a id="appendix"></a>
 
 * [Links](appendix/links.md)
-* [Lizenz](LICENSE.md)
+* [Lizenz](appendix/license.md)
+

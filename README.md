@@ -18,7 +18,7 @@ damit unser Projekt erfolgreich sein kann, benötigen wir Vorgehensweisen in dre
 2. Modell: Lernkonzept implementieren. Wie sieht das Konzept inhaltlich aus?
 3. Evolution: Lernkonzept betreiben. Wie wird das Konzept organisatorisch umgesetzt und was lernen wir daraus?
 
-Nach diesen Punkten werden wir die folgenden Abschnitte untergliedern. 
+Nach diesen Punkten werden wir die folgenden Abschnitte untergliedern.
 
 Diese Dokumentation ist ein Arbeitsstand, in das die aktuellen Überlegungen der Community von selfscrum.org eingeflossen sind. Wer will, kann das Konzept oder Teile davon einsetzen und uns Feedback dazu geben. In künftigen Releases werden wir ein gesamtheitliches Verfahren haben, dass es uns erlaubt, neue Lernräume mit wenig Aufwand zu gründen oder aus herkömmlichen Systemen umzuwandeln.
 
