@@ -1,19 +1,22 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Einleitung](README.md)
+* [Roadmap](roadmap.md)
 
-## Basics
+## Umgebung <a id="environment"></a>
 
-* [Core Values and Principles](basics/values.md)
+* [Unsere Grundwerte](environment/values.md)
 
-## Methods
+## Modell <a id="model"></a>
 
-* [Lernos](methods/lernos/README.md)
-  * [Lernos Introduction](methods/lernos/introduction.md)
+* [SELFSCRUM Lernmodell](selfscrum-lernmodell.md)
 
-## Software
+## Evolution
 
-* [Tools](software/tools/README.md)
-  * [miro](software/tools/miro.md)
-* [Development Roadmap](software/roadmap.md)
+* [Tools](evolution/tools/README.md)
+  * [miro](evolution/tools/miro.md)
+
+## Anhang
+
+* [Links](anhang/links.md)
 
