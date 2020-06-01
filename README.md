@@ -4,7 +4,7 @@ description: SELFSCRUM Übersicht
 
 # Einleitung
 
-SELFSCRUM ist ein Open Source-Betriebssystem für offene demokratische Schulen.
+SELFSCRUM ist ein Open Source-Betriebssystem für offenes demokratisches Lernen.
 
 Was heißt das? Ich glaube, wir brauchen die vereinte Anstrengung aller Beteiligten, um kindliches und jugendliches Lernen auf ein neues Niveau zu heben, das der heutigen Zeit und den zukünftigen großen Herausforderungen gerecht wird. Ich bin der festen Überzeugung, dass Schule und Lernen komplett neu gedacht werden muss.
 

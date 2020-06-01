@@ -1,4 +1,4 @@
-# Table of contents
+# Inhalt
 
 * [Einleitung](README.md)
 * [Roadmap](roadmap.md)
@@ -9,14 +9,14 @@
 
 ## Modell <a id="model"></a>
 
-* [SELFSCRUM Lernmodell](selfscrum-lernmodell.md)
+* [SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
 
 ## Evolution
 
 * [Tools](evolution/tools/README.md)
   * [miro](evolution/tools/miro.md)
 
-## Anhang
+## Anhang <a id="appendix"></a>
 
-* [Links](anhang/links.md)
+* [Links](appendix/links.md)
 
