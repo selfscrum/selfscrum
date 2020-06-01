@@ -19,4 +19,4 @@
 ## Anhang <a id="appendix"></a>
 
 * [Links](appendix/links.md)
-
+* [Lizenz](LICENSE.md)
