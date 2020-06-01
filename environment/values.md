@@ -1,3 +1,7 @@
+---
+description: 'Überlegungen, die alle Gestaltungsprozesse unseres Systems betreffen.'
+---
+
 ## Unsere Grundwerte
 
 ### Wertschätzung
