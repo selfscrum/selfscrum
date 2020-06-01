@@ -2,7 +2,7 @@
 description: Übersicht über die Struktur des Lernmodells
 ---
 
-# Das SELFSCRUM Lernmodell
+## Das SELFSCRUM Lernmodell
 
 Das SELFSCRUM Lernmodell ist vor allem ein methodisches Rahmenwerk. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt genug Gelegenheiten, in der echten Welt zu lernen, und es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
 

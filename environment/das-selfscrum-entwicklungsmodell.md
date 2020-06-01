@@ -2,7 +2,7 @@
 description: Wer bei SELFSCRUM mitarbeitet
 ---
 
-# Das SELFSCRUM Entwicklungsmodell
+## Das SELFSCRUM Entwicklungsmodell
 
 Ein Open Source Projekt benötigt vor allem eines: eine lebendige Community von Freiwilligen, die ihre Zeit und Energie dafür einsetzen, einen Prozess zu durchlaufen und ein Ergebnis zu erzielen. Diese Community hat ihr Zuhause bei \[community.selfscrum.org\]\(https://community.selfscrum.org\).
 
