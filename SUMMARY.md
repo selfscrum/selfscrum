@@ -6,10 +6,11 @@
 ## Umgebung <a id="environment"></a>
 
 * [Unsere Grundwerte](environment/values.md)
+* [Das SELFSCRUM Entwicklungsmodell](environment/das-selfscrum-entwicklungsmodell.md)
 
 ## Modell <a id="model"></a>
 
-* [SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
+* [Das SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
 
 ## Evolution
 

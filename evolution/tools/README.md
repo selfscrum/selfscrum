@@ -4,7 +4,7 @@ description: 'Wichtige Tools, die wir einsetzen.'
 
 # Tools
 
-## Software
+### Software
 
 Gerade in der aktuellen Zeit der Corona-Krise rettet uns Software aus der notwendigen physischen Isolation. Über sie können wir weiter miteinander kommunizieren, arbeiten und Ergebnisse erstellen, die wir dann wieder präsentieren können.
 
