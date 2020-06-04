@@ -1,5 +1,5 @@
 
-![selfscrum_logo](../.gitbook/assets/selfscrumlabel.png)
+![selfscrum_logo](../.gitbook/assets/selfscrum-label.png)
 
 # Einleitung
 
