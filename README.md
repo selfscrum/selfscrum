@@ -1,6 +1,5 @@
----
-description: SELFSCRUM Übersicht
----
+
+![selfscrum_logo](../.gitbook/assets/selfscrumlabel.png)
 
 # Einleitung
 

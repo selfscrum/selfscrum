@@ -36,7 +36,7 @@ Die Gedanken, die sich in der Community entwickeln, fließen in ein Gesamtkonzep
 
 Momentan bin ich der einzige Redakteur. Wer an dieser Aktivität Interesse hat, kann sich gerne in der Community dazu melden.
 
-### Veröffenlichen
+### Veröffentlichen
 
 Die eigentliche "Veröffentlichung" findet wie oben beschrieben automatisch statt. Künftig werden wir über "Releases" nachdenken müssen, wenn das Konzept erst einmal in Betrieb ist, da sich dann ja mit neuen Versionen auch Abläufe an den Lernprozessen ändern werden.
 
