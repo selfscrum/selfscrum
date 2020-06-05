@@ -2,25 +2,25 @@
 description: Übersicht über die Struktur des Lernmodells
 ---
 
-## Das SELFSCRUM Lernmodell
+# Das SELFSCRUM Lernmodell
 
 Das SELFSCRUM Lernmodell ist vor allem ein methodisches Rahmenwerk. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt genug Gelegenheiten, in der echten Welt zu lernen, und es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
 
-### Inhalte
+## Inhalte
 
-Wir brauchen jedoch auch eine inhatliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und die nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet. 
+Wir brauchen jedoch auch eine inhatliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und die nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
 
 ![Die 17 Ziele f&#xFC;r nachhaltige Entwicklung.](../.gitbook/assets/grafik.png)
 
 Damit haben wir genügend individuelle Einstiegspunkte und die Möglichkeit, "echte" Forschungsfragen zu generieren, die für die Lernprozesse so entscheidend sind.
 
-### Projekt-Rahmen
+## Projekt-Rahmen
 
 Eine passende pädagogische Fundierung ist für uns das Project-Based Learning \(PBL\), aus wissenschaftlichen Forschungen in den USA Ende letzten Jahrhunderts entstanden. Ich habe erst später herausgefunden, dass PBL in Deutschland eher Problembasiertes Lernen bedeutet - wieso ist in Deutschland eigentlich immer alles ein „Problem“?.
 
 „Projekte machen wir auch“, denkt man sich vielleicht bei diesem Begriff. Projektbasiertes Lernen ist jedoch ein ganz anderes Konzept als die schablonenartig hergestellten Projektwochen, die wir heute in vielen Schulen antreffen.
 
-### Takt
+## Takt
 
 Da wir PBL als Basiskonzept einrichten wollen, brauchen wir einen Takt, der uns mit Projekten durch das Lern-Jahr bringt, das ja meistens durch die Schulferien gegliedert wird. Keine natürliche, aber eine pragmatische Grenze, die vielen Familien ihre Jahresplanung erleichert, die aber selbstverständlich kein Naturgesetz ist.
 
@@ -28,7 +28,7 @@ Da wir PBL als Basiskonzept einrichten wollen, brauchen wir einen Takt, der uns 
 
 Wir nutzen diese Feriengrenzen meist auch als Projektgrenzen. Je nach Alter und Erfahrung der Lernenden und dem Umfang des geplanten Projekts können natürlich auch längere Projekte geplant werden. Kleinere Zeiträume können auch gelegentlich genutzt werden, um Konzeptphasen unterzubringen, in denen intensiv an Themen gearbeitet werden kann, die sich nicht gut in ein Projekt eingliedern lassen.
 
-### Stakeholder
+## Stakeholder
 
 "Es braucht ein Dorf, um ein Kind zu erziehen" - dieses afrikanische Sprichwort ist wahrer denn je. Nur die Rollen und die geografische Verteilung der Dorfbewohner haben sich eventuell geändert.
 
