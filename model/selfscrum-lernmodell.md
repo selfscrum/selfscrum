@@ -10,7 +10,7 @@ Das SELFSCRUM Lernmodell ist vor allem ein methodisches Rahmenwerk. Wir glauben 
 
 Wir brauchen jedoch auch eine inhatliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und die nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
 
-![Die 17 Ziele f&#xFC;r nachhaltige Entwicklung.](../.gitbook/assets/grafik.png)
+![Die 17 Ziele für nachhaltige Entwicklung](../.gitbook/assets/grafik.png)
 
 Damit haben wir genügend individuelle Einstiegspunkte und die Möglichkeit, "echte" Forschungsfragen zu generieren, die für die Lernprozesse so entscheidend sind.
 
@@ -24,7 +24,7 @@ Eine passende pädagogische Fundierung ist für uns das Project-Based Learning \
 
 Da wir PBL als Basiskonzept einrichten wollen, brauchen wir einen Takt, der uns mit Projekten durch das Lern-Jahr bringt, das ja meistens durch die Schulferien gegliedert wird. Keine natürliche, aber eine pragmatische Grenze, die vielen Familien ihre Jahresplanung erleichert, die aber selbstverständlich kein Naturgesetz ist.
 
-![Beispielkalender f&#xFC;r einen PBL-Takt](../.gitbook/assets/grafik%20%282%29.png)
+![Beispielkalender für einen PBL-Takt](../.gitbook/assets/kalender.png)
 
 Wir nutzen diese Feriengrenzen meist auch als Projektgrenzen. Je nach Alter und Erfahrung der Lernenden und dem Umfang des geplanten Projekts können natürlich auch längere Projekte geplant werden. Kleinere Zeiträume können auch gelegentlich genutzt werden, um Konzeptphasen unterzubringen, in denen intensiv an Themen gearbeitet werden kann, die sich nicht gut in ein Projekt eingliedern lassen.
 
