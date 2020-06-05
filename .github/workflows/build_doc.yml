@@ -42,7 +42,6 @@
 # It is recomended to work in a different branch when doing many changes e.g. in gitbook, and then merge the branch when it is releasable.
 # This way, the load on the automated actions is released and the usage limits are not reached so quickly.
 #
-# 
 
 name: Build Docs
 
