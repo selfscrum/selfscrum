@@ -34,7 +34,7 @@ Wir nutzen diese Feriengrenzen meist auch als Projektgrenzen. Je nach Alter und 
 
 Wir betrachten in unserem Lernmodell
 
-* Die \(jungen\) Lernenden selbst
+* Die (jungen) Lernenden selbst
 * Lehrende innerhalb der Organisation
 * Lehrende außerhalb der Organisation
 * Eltern
