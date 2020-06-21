@@ -17,18 +17,13 @@ Um diese Entwicklung zu gestalten, folgen wir diesem Rhythmus:
 3. Veröffentlichen
 4. Reflektieren
 
+einen konkreten, getakteten Prozess gibt es momentan leider noch nicht. Wer hier Aufbauarbeit leisten möchte, ist herzlich willkommen!
+
 ## Sammeln
 
-Wer Ideen oder Konzepte hat und diese hier teilen möchte, kann dies gerne in der Themenliste der Community tun. Wir haben vor allem vier Kategorien, die beim Schreiben relevant sind.
+Wer Ideen oder Konzepte hat und diese hier teilen möchte, kann dies gerne in der Themenliste der Community tun. Wir kategorisieren unsere Diskussionen anhand der fünf SELFSCRUM Dimensionen.
 
-* Lernprozess ermöglichen
-* Lernprozess implementieren
-* Lernprozess betrieben
-* Community
-
-Nicht zufällig entsprechen diese Strukturen der Gliederung dieser Dokumenation ;\)
-
-Wir veranstalten regelmäßige Community-Treffen per remote Video. die dem Austausch über das Forum hinweg dienen. Schließlich arbetiet man am besten zusammen, wenn man sich kennt.
+Wir veranstalten regelmäßige Community-Treffen per remote Video. die dem Austausch über das Forum hinweg dienen. Schließlich arbeitet man am besten zusammen, wenn man sich kennt.
 
 ## Verarbeiten
 
@@ -44,9 +39,10 @@ Die aktuellste HTML-Version des veröffentlichten Textes steht unter [docs.selfs
 
 Als PDF-Version kann das Dokument [bei github](https://github.com/selfscrum/selfscrum/raw/master/out/SELFSCRUM.pdf) heruntergeladen werden. Ebook-Formate und eine MS Word-Version ist ebenfalls verfügbar. Bitte beachtet beim Weiterverwenden die [Open Source Lizenz](../appendix/license.md).
 
+Ein paar offene Baustellen sorgen leider noch dafür, dass die meisten Bilder der Online-Version nicht in den erzeugten Dokumenten auftauchen. Ich bitte um Verständnis und Geduld.
+
 ## Reflektieren
 
 Hier schließt sich der Kreis. Feedback von außen oder der Community will verarbeitet werden. Wir können das Gelernte in teilnehmenden Schulen ausprobieren und über die Effekte dessen, was veröffentlicht wurde nachdenken, um dann eine neue Runde zu starten.
 
 All diese Prozesse werden sich kontinuierlich weiter entwickeln.
-
