@@ -2,7 +2,7 @@
 
 Für SELFSCRUM haben wir verschiedene Dimensionen definiert, die wir zu klären haben, um unser Modell erfolreich einzusetzen.
 
-![Dimensionen von SELFSCRUM](./environment/drivers.png)
+![Dimensionen von SELFSCRUM](/environment/drivers.png)
 
 ## Werte - Leitlinien unserer Entwicklung
 
