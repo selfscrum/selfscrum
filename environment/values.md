@@ -4,11 +4,15 @@ description: 'Überlegungen, die alle Gestaltungsprozesse unseres Systems betref
 
 # Unsere Grundwerte
 
+![Die wichtigsten Grundsätze unserer Arbeit](./values.png)
+
 ## Wertschätzung - Jede\*r wird wahrgenommen
 
 Wertschätzung bedeutet für uns, eine Atmosphäre zu schaffen, in der sich jedes Mitglied der Lerngemeinschaft wahrgenommen und angenommen fühlen kann – als Individuum mit all seinen Eigenheiten und gleichzeitig zugehörig zur Gruppe. Die individuellen Bedürfnisse von Erwachsenen und Kindern werden als gleichwertig angesehen und geachtet.
 
 Lernen geschieht leichter ohne Angst und auf der Basis vertrauensvoller Beziehungen. Daher ist es uns wichtig, spontanen Lernprozessen Raum zu geben und vielfältige Kommunikation unter allen beteiligten Personen zu ermöglichen.
+
+Dies ist auch für die Gestaltung von Organisationen von besonderer Wichtigkeit. Wie schnell schleicht sich "Der Prozess muss erfüllt sein" in die Beziehungen und wie oft ersetzt ein Formular einen Dialog? Wirt setzen uns zum Ziel, die menschlichen Kapazitäten so viel wie es geht zum Arbeiten mit Menschen zu nutzen und alles, was sich automatisieren lässt, von Maschinen erledigen zu lassen.
 
 ## Offenheit - Jede\*r verhält sich ehrlich, klar, authentisch
 

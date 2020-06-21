@@ -20,7 +20,13 @@ Das Lernkonzept setzt in seiner ersten Version stark auf projektbasiertes Lernen
 
 ## Organisation - Strukturen, Rollen und Prozesse für den Alltag
 
+Ein Lernkonzept ist erstmal Theorie - das haben wir am ersten Tag unserer neuen Schule auch erfahren. Vieles läuft in der Praxis ganz anders, als es ursprünglich vorgesehen war. Da hilft es sehr, wenn die Organisation klar aufgestellt ist und genau zwischen Regelbetrieb und Ausnahmen unterscheiden kann. Das Ziel ist, den Regelbetrieb so "automatisch" wie möglich zu organisieren, damit den Lernbegleitern viel Zeit für die Schüler*innen bleibt und Ausnahmen so behandelt werden, dass sie zu neuen Einsichten und verbesserten Abläufen führen-
+
+Hier ist zugegebenermaßen noch viel Luft nach oben. Wir haben an der freien Schule Ostfriesland schon einige Verwaltungsprozesse schlank und digital aufgesetzt, es kann jedoch noch vieles verbessert werden. Hier sind wir besonders aufmerksam auf "Best Practices" von anderen Stellen. 
+
 ## Betrieb - Bereitstellung von Ressourcen und Kompetenzen
+
+
 
 ## Community - Methodische Entwicklung als Open Source
 
