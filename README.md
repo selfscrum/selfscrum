@@ -1,6 +1,6 @@
 # Einleitung
 
-![](./drivers.png)
+![](./.gitbook/assets/selfscrum-label.png)
 
 SELFSCRUM ist ein Open Source-Betriebssystem für offenes demokratisches Lernen.
 
@@ -8,7 +8,7 @@ Was heißt das? Wir glauben, dass wir die vereinte Anstrengung vieler brauchen, 
 
 Die gute Nachricht ist, dass es bereits viele gute Ansätze gibt. Sie kommen aus verschiedensten Richtungen. Sei es aus klassichen Schulen, wo viele motivierte Menschen mit guten Ideen versuchen, ein erstarrtes System am Leben zu halten, sei es aus der freien Wirtschaft, wo Wissen und Lernen heute überlebensnotwendige Eigenschaften sind und auch aus der weltweiten Open Source Gemeinschaft, in der sehr viel ohne kommerzielles Interesse geteilt und entwickelt wird. Und auch die gesellschaftlichen Kräfte der aktuellen Nachhaltigkeitsbewegungen, die gelernt haben, sich auf moderne Art und Weise zu organiseren, um ihren Anliegen eine Stimme zu geben, sind ein wichtiger Impulsgeber.
 
-Die hauptsächliche Basis von SELFSCRUM ist jedoch die koneptionelle und praktische Erfahrung, die wir beim Aufbau der Freien Schule Ostfriesland gemacht haben. Wir wollen das teilen und weiterentwickeln, was wir gelernt haben, damit möglichst viele den Mut finden, einen ähnlichen Weg zu gehen wie wir. Aber auch wir profitieren von der weiteren Öffnung, weil so viele neue Inspirationen zu uns zurück kehren
+Die hauptsächliche Basis von SELFSCRUM ist jedoch die konzeptionelle und praktische Erfahrung, die wir beim Aufbau der Freien Schule Ostfriesland gemacht haben. Wir wollen das teilen und weiterentwickeln, was wir gelernt haben, damit möglichst viele den Mut finden, einen ähnlichen Weg zu gehen wie wir. Aber auch wir profitieren von der weiteren Öffnung, weil so viele neue Inspirationen zu uns zurück kehren
 
 Damit unser Projekt erfolgreich sein kann, benötigen wir Klarheit in diesen Bereichen
 

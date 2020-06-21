@@ -3,22 +3,25 @@
 * [Einleitung](README.md)
 * [Roadmap](roadmap.md)
 
-## Umgebung <a id="environment"></a>
+## Die SELFSCRUM-Organisation<a id="environment"></a>
 
-* [Überblick zu "Lernkonzept ermöglichen"](environment/environment.md)
+* [Die SELFSCRUM-Dimensionen](environment/environment.md)
 * [Unsere Grundwerte](environment/values.md)
-* [Das SELFSCRUM Entwicklungsmodell](environment/das-selfscrum-entwicklungsmodell.md)
 
-## Modell <a id="model"></a>
+## Lernkonzept <a id="model"></a>
 
 * [Überblick zu "Lernkonzept implementieren"](model/model.md)
 * [Das SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
 
-## Evolution
+## Betrieb
 
 * [Überblick zu "Lernkonzept betreiben"](evolution/evolution.md)
 * [Tools](evolution/tools/README.md)
   * [miro](evolution/tools/miro.md)
+
+## Community <a id="community"></a>
+
+* [Das SELFSCRUM Entwicklungsmodell](community/das-selfscrum-entwicklungsmodell.md)
 
 ## Anhang <a id="appendix"></a>
 
