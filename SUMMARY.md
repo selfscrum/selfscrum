@@ -11,13 +11,17 @@
 ## Lernkonzept <a id="model"></a>
 
 * [Das SELFSCRUM Lernkonzept](model/model.md)
+* [Methoden]
+  * [Liberating Structures](model/methoden/liberatingstructures.md)
+  * [Methodenkartei Uni Oldenburg](model/methoden/oldenburg.md)
 
 ## Betrieb
 
 * [Betriebsprozesse](betrieb/betrieb.md)
 * [Tools](betrieb/tools/README.md)
+  * [codiMD](betrieb/tools/codimd.md)
   * [miro](betrieb/tools/miro.md)
-
+  * [oncoo](betrieb/tools/oncoo.md)
 ## Community
 
 * [Das SELFSCRUM Entwicklungsmodell](community/community.md)
