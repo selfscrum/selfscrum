@@ -28,6 +28,15 @@ Da wir PBL als Basiskonzept einrichten wollen, brauchen wir einen Takt, der uns 
 
 Wir nutzen diese Feriengrenzen meist auch als Projektgrenzen. Je nach Alter und Erfahrung der Lernenden und dem Umfang des geplanten Projekts können natürlich auch längere Projekte geplant werden. Kleinere Zeiträume können auch gelegentlich genutzt werden, um Konzeptphasen unterzubringen, in denen intensiv an Themen gearbeitet werden kann, die sich nicht gut in ein Projekt eingliedern lassen.
 
+Ein Projekt läuft dann immer im selben Zyklus ab. Das erste Projekt ist verkürzt und hat das Ziel, zunächst die Projektmechanik einzuüben. 
+
+![Grobentwurf für das erste Projekt](./project_structure.png)
+
+Zusätzlich zur Projektarbeit soll noch weitere Zeit zur Verfügung stehen, um nötige Basiskonzepte einzuüben oder an individuellen Interessen weiter zu forschen. Der Wochenplan sieht dies entsprechend vor. Im folgenden ein Entwurf.
+
+![Grobentwurf für einen Wochenplan](./wochenplan.png)
+
+
 ## Stakeholder
 
 "Es braucht ein Dorf, um ein Kind zu erziehen" - dieses afrikanische Sprichwort ist wahrer denn je. Nur die Rollen und die geografische Verteilung der Dorfbewohner haben sich eventuell geändert.

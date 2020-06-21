@@ -14,7 +14,7 @@
 
 ## Betrieb
 
-* [Überblick zu "Lernkonzept betreiben"](betrieb/betrieb.md)
+* [Betriebsprozesse](betrieb/betrieb.md)
 * [Tools](betrieb/tools/README.md)
   * [miro](betrieb/tools/miro.md)
 
