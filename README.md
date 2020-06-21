@@ -1,6 +1,6 @@
 # Einleitung
 
-![](.gitbook/assets/selfscrum-label.png)
+![SELFSCRUM Logo](.gitbook/assets/selfscrum-label.png)
 
 SELFSCRUM ist ein Open Source-Betriebssystem für offenes demokratisches Lernen.
 
@@ -10,15 +10,15 @@ Die gute Nachricht ist, dass es bereits viele gute Ansätze gibt. Sie kommen aus
 
 Die hauptsächliche Basis von SELFSCRUM ist jedoch die konzeptionelle und praktische Erfahrung, die wir beim Aufbau der Freien Schule Ostfriesland gemacht haben. Wir wollen das teilen und weiterentwickeln, was wir gelernt haben, damit möglichst viele den Mut finden, einen ähnlichen Weg zu gehen wie wir. Aber auch wir profitieren von der weiteren Öffnung, weil so viele neue Inspirationen zu uns zurück kehren
 
-Damit unser Projekt erfolgreich sein kann, benötigen wir Klarheit in diesen Bereichen
+Damit unser Projekt erfolgreich sein kann, benötigen wir Klarheit in den Bereichen
 
-1. [Werte](./environment/values.md)
-2. [Lernkonzept](./model/model.md)
-3. Organisation
-4. [Betrieb](./betrieb/betrieb.md)
-5. [Community](./community/community.md)
+* Werte
+* Lernkonzept
+* Organisation
+* Betrieb
+* Community
 
-Nach diesen Leitpunkten werden wir die folgenden Abschnitte untergliedern.
+Wir nennen diese Bereiche ["Die fünf SELFSCRUM-Dimensionen"](./environment/environment.md) und orierentieren uns daran in Erarbeitung und Redaktion.
 
 Diese Dokumentation ist ein Arbeitsstand, in das die aktuellen Überlegungen der Community von selfscrum.org eingeflossen sind. Wer will, kann das Konzept oder Teile davon einsetzen und uns Feedback dazu geben. In künftigen Releases werden wir dann ein gesamtheitliches Verfahren haben, dass es uns erlaubt, neue Lernräume mit wenig Aufwand zu gründen oder aus herkömmlichen Systemen umzuwandeln.
 
