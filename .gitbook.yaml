@@ -1,4 +1,4 @@
 root: ./
 redirects:
-    environment/dreivers.md: ./environment/drivers.md
+    environment/drivers.md: ./environment/drivers.md
     environment/values.md: ./environment/values.md
