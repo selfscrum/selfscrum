@@ -1,6 +1,6 @@
 # Einleitung
 
-![](./.gitbook/assets/selfscrum-label.png)
+![](.gitbook/assets/selfscrum-label.png)
 
 SELFSCRUM ist ein Open Source-Betriebssystem für offenes demokratisches Lernen.
 

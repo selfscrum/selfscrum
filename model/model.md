@@ -1,4 +1,4 @@
-# Überblick zu "Lernkonzept implementieren"
+# Das SELFSCRUM Lernkonzept
 
 Wie sieht das Konzept inhaltlich aus?
 

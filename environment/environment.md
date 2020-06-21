@@ -1,14 +1,14 @@
-# Die SELFSCRUM Dimensionen
+# Die SELFSCRUM-Dimensionen
 
 Für SELFSCRUM haben wir verschiedene Dimensionen definiert, die wir zu klären haben, um unser Modell erfolreich einzusetzen.
 
-![Dimensionen von SELFSCRUM](environment/drivers.png)
+![Dimensionen von SELFSCRUM](https://github.com/selfscrum/selfscrum/tree/b3dad8f2f8c46474a13edcca03493c667a355c79/environment/environment/drivers.png)
 
 ## Werte - Leitlinien unserer Entwicklung
 
 Welche "Verfassung" geben wir unserem Vorhaben? Welche Orientierung wollen wir nutzen, um in Zweifelsfragen gut entscheiden zu können? Wir haben uns bei der Schulgründung viel um die Grundwerte Gedanken gemacht. Diese Grundwerte sind auch für SELFSCRUM weiterhin gültig und relevant. Wir haben sie hier angepasst für die Gestaltung des Entwicklungsprozesses.
 
-Mehr dazu unter [Unsere Grundwerte](environment/values.md)
+Mehr dazu unter "[Unsere Grundwerte](values.md)".
 
 ## Lernkonzept - das Basiskonzept für die Schulentwicklung
 
@@ -20,13 +20,7 @@ Das Lernkonzept setzt in seiner ersten Version stark auf projektbasiertes Lernen
 
 ## Organisation - Strukturen, Rollen und Prozesse für den Alltag
 
-
-
 ## Betrieb - Bereitstellung von Ressourcen und Kompetenzen
 
-
-
 ## Community - Methodische Entwicklung als Open Source
-
-
 
