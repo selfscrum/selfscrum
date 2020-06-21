@@ -11,7 +11,7 @@
 ## Lernkonzept <a id="model"></a>
 
 * [Das SELFSCRUM Lernkonzept](model/model.md)
-* [Methoden]
+* [Methoden](mode/methoden/README.md)
   * [Liberating Structures](model/methoden/liberatingstructures.md)
   * [Methodenkartei Uni Oldenburg](model/methoden/oldenburg.md)
 
