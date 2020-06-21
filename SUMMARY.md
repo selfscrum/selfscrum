@@ -10,7 +10,7 @@
 
 ## Lernkonzept <a id="model"></a>
 
-* [Überblick zu "Lernkonzept implementieren"](model/model.md)
+* [Das SELFSCRUM Lernkonzept](model/model.md)
 * [Das SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
 
 ## Betrieb
