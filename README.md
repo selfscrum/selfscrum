@@ -12,11 +12,11 @@ Die hauptsächliche Basis von SELFSCRUM ist jedoch die konzeptionelle und prakti
 
 Damit unser Projekt erfolgreich sein kann, benötigen wir Klarheit in diesen Bereichen
 
-1. Werte
-2. Lernkonzept
+1. [Werte](./environment/values.md)
+2. [Lernkonzept](./model/model.md)
 3. Organisation
-4. Betrieb
-5. Community
+4. [Betrieb](./betrieb/betrieb.md)
+5. [Community](./community/community.md)
 
 Nach diesen Leitpunkten werden wir die folgenden Abschnitte untergliedern.
 

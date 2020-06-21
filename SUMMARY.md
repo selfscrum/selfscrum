@@ -11,17 +11,16 @@
 ## Lernkonzept <a id="model"></a>
 
 * [Das SELFSCRUM Lernkonzept](model/model.md)
-* [Das SELFSCRUM Lernmodell](model/selfscrum-lernmodell.md)
 
 ## Betrieb
 
-* [Überblick zu "Lernkonzept betreiben"](betrieb/evolution.md)
+* [Überblick zu "Lernkonzept betreiben"](betrieb/betrieb.md)
 * [Tools](betrieb/tools/README.md)
   * [miro](betrieb/tools/miro.md)
 
 ## Community
 
-* [Das SELFSCRUM Entwicklungsmodell](community/das-selfscrum-entwicklungsmodell.md)
+* [Das SELFSCRUM Entwicklungsmodell](community/community.md)
 
 ## Anhang <a id="appendix"></a>
 
