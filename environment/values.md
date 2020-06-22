@@ -4,7 +4,7 @@ description: 'Überlegungen, die alle Gestaltungsprozesse unseres Systems betref
 
 # Unsere Grundwerte
 
-![Die wichtigsten Grundsätze unserer Arbeit](./values.png)
+![Die wichtigsten Grunds&#xE4;tze unserer Arbeit](../.gitbook/assets/values.png)
 
 ## Wertschätzung - Jede\*r wird wahrgenommen
 

@@ -18,7 +18,7 @@ Damit unser Projekt erfolgreich sein kann, benötigen wir Klarheit in den Bereic
 * Betrieb
 * Community
 
-Wir nennen diese Bereiche "Die fünf [SELFSCRUM-Dimensionen](./environment/environment.md)" und orierentieren uns daran in Erarbeitung und Redaktion.
+Wir nennen diese Bereiche "Die fünf [SELFSCRUM-Dimensionen](environment/environment.md)" und orierentieren uns daran in Erarbeitung und Redaktion.
 
 Diese Dokumentation ist ein Arbeitsstand, in das die aktuellen Überlegungen der Community von selfscrum.org eingeflossen sind. Wer will, kann das Konzept oder Teile davon einsetzen und uns Feedback dazu geben. In künftigen Releases werden wir dann ein gesamtheitliches Verfahren haben, dass es uns erlaubt, neue Lernräume mit wenig Aufwand zu gründen oder aus herkömmlichen Systemen umzuwandeln.
 

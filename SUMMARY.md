@@ -6,6 +6,7 @@
 ## Die SELFSCRUM-Organisation <a id="environment"></a>
 
 * [Die SELFSCRUM-Dimensionen](environment/environment.md)
+* [Untitled](environment/untitled.md)
 * [Unsere Grundwerte](environment/values.md)
 
 ## Lernkonzept <a id="model"></a>
@@ -23,9 +24,7 @@
   * [codiMD](betrieb/tools/codimd.md)
   * [miro](betrieb/tools/miro.md)
   * [oncoo](betrieb/tools/oncoo.md)
-## Community
-
-* [Das SELFSCRUM Entwicklungsmodell](community/community.md)
+* [Das SELFSCRUM Entwicklungsmodell](betrieb/community.md)
 
 ## Anhang <a id="appendix"></a>
 
