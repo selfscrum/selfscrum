@@ -6,7 +6,6 @@
 ## Die SELFSCRUM-Organisation <a id="environment"></a>
 
 * [Die SELFSCRUM-Dimensionen](environment/environment.md)
-* [Untitled](environment/untitled.md)
 * [Unsere Grundwerte](environment/values.md)
 
 ## Lernkonzept <a id="model"></a>
