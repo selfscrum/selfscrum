@@ -14,6 +14,7 @@
 * [Methoden](model/methoden/README.md)
   * [Design Thinking](model/methoden/designthinking.md)
   * [Liberating Structures](model/methoden/liberatingstructures.md)
+  * [Markdown](model/methoden/markdown.md)
   * [Methodenkartei Uni Oldenburg](model/methoden/oldenburg.md)
 
 ## Betrieb
