@@ -23,9 +23,7 @@
   * [codiMD](betrieb/tools/codimd.md)
   * [miro](betrieb/tools/miro.md)
   * [oncoo](betrieb/tools/oncoo.md)
-## Community
-
-* [Das SELFSCRUM Entwicklungsmodell](community/community.md)
+* [Das SELFSCRUM Entwicklungsmodell](betrieb/community.md)
 
 ## Anhang <a id="appendix"></a>
 

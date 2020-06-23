@@ -6,7 +6,7 @@ description: Wer bei SELFSCRUM mitarbeitet
 
 Ein Open Source Projekt benötigt vor allem eines: eine lebendige Community von Freiwilligen, die ihre Zeit und Energie dafür einsetzen, einen Prozess zu durchlaufen und ein Ergebnis zu erzielen. Diese Community hat ihr Zuhause bei [community.selfscrum.org](https://community.selfscrum.org)
 
-![Die Akteure im SELFSCRUM Entwicklungsmodell](./actors.png)
+![Die Akteure im SELFSCRUM Entwicklungsmodell](../.gitbook/assets/actors%20%282%29.png)
 
 Es liegt in der Definition von SELFSCRUM, dass es nie ein "fertiges" Ergebnis geben wird, sondern dass immer wieder neue Erkenntnisse dazu kommen, die eine Weiterentwicklung fordern und ermöglichen.
 
@@ -46,3 +46,4 @@ Ein paar offene Baustellen sorgen leider noch dafür, dass die meisten Bilder de
 Hier schließt sich der Kreis. Feedback von außen oder der Community will verarbeitet werden. Wir können das Gelernte in teilnehmenden Schulen ausprobieren und über die Effekte dessen, was veröffentlicht wurde nachdenken, um dann eine neue Runde zu starten.
 
 All diese Prozesse werden sich kontinuierlich weiter entwickeln.
+

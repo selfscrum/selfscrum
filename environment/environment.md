@@ -2,13 +2,13 @@
 
 Für SELFSCRUM haben wir verschiedene Dimensionen definiert, die wir zu klären haben, um unser Modell erfolreich einzusetzen.
 
-![Dimensionen von SELFSCRUM](./drivers.png)
+![Dimensionen von SELFSCRUM](../.gitbook/assets/drivers%20%282%29.png)
 
 ## Werte - Leitlinien unserer Entwicklung
 
 Welche "Verfassung" geben wir unserem Vorhaben? Welche Orientierung wollen wir nutzen, um in Zweifelsfragen gut entscheiden zu können? Wir haben uns bei der Schulgründung viel um die Grundwerte Gedanken gemacht. Diese Grundwerte sind auch für SELFSCRUM weiterhin gültig und relevant. Wir haben sie hier angepasst für die Gestaltung des Entwicklungsprozesses.
 
-Mehr dazu unter "[Unsere Grundwerte](./values.md)".
+Mehr dazu unter "[Unsere Grundwerte](values.md)".
 
 ## Lernkonzept - das Basiskonzept für die Schulentwicklung
 
@@ -20,9 +20,9 @@ Das [Lernkonzept](../model/model.md) setzt in seiner ersten Version stark auf pr
 
 ## Organisation - Strukturen, Rollen und Prozesse für den Alltag
 
-Ein Lernkonzept ist erstmal Theorie - das haben wir am ersten Tag unserer neuen Schule auch erfahren. Vieles läuft in der Praxis ganz anders, als es ursprünglich vorgesehen war. Da hilft es sehr, wenn die Organisation klar aufgestellt ist und genau zwischen Regelbetrieb und Ausnahmen unterscheiden kann. Das Ziel ist, den Regelbetrieb so "automatisch" wie möglich zu organisieren, damit den Lernbegleitern viel Zeit für die Schüler*innen bleibt und Ausnahmen so behandelt werden, dass sie zu neuen Einsichten und verbesserten Abläufen führen-
+Ein Lernkonzept ist erstmal Theorie - das haben wir am ersten Tag unserer neuen Schule auch erfahren. Vieles läuft in der Praxis ganz anders, als es ursprünglich vorgesehen war. Da hilft es sehr, wenn die Organisation klar aufgestellt ist und genau zwischen Regelbetrieb und Ausnahmen unterscheiden kann. Das Ziel ist, den Regelbetrieb so "automatisch" wie möglich zu organisieren, damit den Lernbegleitern viel Zeit für die Schüler\*innen bleibt und Ausnahmen so behandelt werden, dass sie zu neuen Einsichten und verbesserten Abläufen führen-
 
-Hier ist zugegebenermaßen noch viel Luft nach oben. Wir haben an der freien Schule Ostfriesland schon einige Verwaltungsprozesse schlank und digital aufgesetzt, es kann jedoch noch vieles verbessert werden. Hier schauen wir besonders aufmerksam auf "Best Practices" von anderen Stellen wie zum Beispiel Unternehmen und anderen selbstorganisierten Entwicklungsprozessen. 
+Hier ist zugegebenermaßen noch viel Luft nach oben. Wir haben an der freien Schule Ostfriesland schon einige Verwaltungsprozesse schlank und digital aufgesetzt, es kann jedoch noch vieles verbessert werden. Hier schauen wir besonders aufmerksam auf "Best Practices" von anderen Stellen wie zum Beispiel Unternehmen und anderen selbstorganisierten Entwicklungsprozessen.
 
 ## Betrieb - Bereitstellung von Ressourcen und Kompetenzen
 
@@ -34,10 +34,11 @@ Und natürlich hängt hier sehr viel von einer geschickten Wahl der IT-Systeme a
 
 ## Community - Methodische Entwicklung als Open Source
 
-SELFSCRUM ist vor allem aus diesem Grund entstanden: **Wir wollen offene, freie Konzepte und Systeme für jeden, der sie nutzen will.** Das ist für ein entscheidender Faktor für die freie Entwickung. Zu schnell gerät man in Abhängigkeiten von kommerziellen Interessen, so gut wie sie vielleicht auch ursprünglich gemeint gewesen sind. 
+SELFSCRUM ist vor allem aus diesem Grund entstanden: **Wir wollen offene, freie Konzepte und Systeme für jeden, der sie nutzen will.** Das ist für ein entscheidender Faktor für die freie Entwickung. Zu schnell gerät man in Abhängigkeiten von kommerziellen Interessen, so gut wie sie vielleicht auch ursprünglich gemeint gewesen sind.
 
-Wer auch immer für Konzepte und Systeme Geld verlangt, wird früher oder später etwas tun müssen, um sich vom Markt abzuheben. Das heißt entweder, Geld zu investieren, was dann über Gebühren oder Lizenzen mit Gewinn wieder zurückkommen muss, oder es bedeutet die Erfindung besonderer Methoden und Techniken, die dann "geheim" gehalten werden müssen, um sich Nachahmer und Trittbrettfahrer vom Leib zu halten. Auch hier ist eine Barriere zu den Nutzer*n dieser Erfindungen vorhanden, die dann wiederum monetarisiert wird oder zumindest über Vertraulichkeitsvereinbarungen und Vertragsstrafen die weitere Verbreitung von guten Lösungen verhindert. 
+Wer auch immer für Konzepte und Systeme Geld verlangt, wird früher oder später etwas tun müssen, um sich vom Markt abzuheben. Das heißt entweder, Geld zu investieren, was dann über Gebühren oder Lizenzen mit Gewinn wieder zurückkommen muss, oder es bedeutet die Erfindung besonderer Methoden und Techniken, die dann "geheim" gehalten werden müssen, um sich Nachahmer und Trittbrettfahrer vom Leib zu halten. Auch hier ist eine Barriere zu den Nutzer\*n dieser Erfindungen vorhanden, die dann wiederum monetarisiert wird oder zumindest über Vertraulichkeitsvereinbarungen und Vertragsstrafen die weitere Verbreitung von guten Lösungen verhindert.
 
-Daher setzen wir wo immer es geht auf Open Source. Was ursprünglich als Konzept zur Emanzipation von IT Herstellern begann, hat inzwischen viele Lebensbereiche erreicht und zeigt dort seine positive Wirkung. 
+Daher setzen wir wo immer es geht auf Open Source. Was ursprünglich als Konzept zur Emanzipation von IT Herstellern begann, hat inzwischen viele Lebensbereiche erreicht und zeigt dort seine positive Wirkung.
 
-Mehr dazu unter ["Community"](../community/community.md).
+Mehr dazu unter ["Community"](../betrieb/community.md).
+
