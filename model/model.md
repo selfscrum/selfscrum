@@ -4,11 +4,18 @@ description: Übersicht über die Struktur des Lernmodells
 
 # Das SELFSCRUM Lernkonzept
 
-Das SELFSCRUM Lernmodell ist vor allem ein methodisches Rahmenwerk. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt genug Gelegenheiten, in der echten Welt zu lernen, und es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
+Das SELFSCRUM Lernmodell ist vor allem ein offenes Rahmenwerk. Dieser Rahmen wird durch zwei Dimensionen aufgespannt:
+
+1. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt für Schüler\* genug Gelegenheiten, selbstständig in der echten Welt zu lernen
+2. Wir glauben nicht an ein Standardcurriculum - es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
+
+![Rahmen des Lernmodells](../.gitbook/assets/grafik.png)
+
+Je nach Ziel der Schule kann sie ein individuelles Lernmodell nun innerhalb dieses Rahmens eingliedern. Als erstes unterstütztes Beispiel werden wir hier in diesem Leitfaden das Projektbasierte Lernen betrachten. Es ist ein gut abgeschlossenes, bekanntes Modell, dass sich einfach in den Alltag integrieren lässt und den Lernenden viele inhaltliche Freiheiten gibt. Die Methodentreue im Projekt ist hingegen wichtig - hier ist es gut, eine gewisse Stabilität zu lehren und einzuüben, damit die Vorhaben auch gelingen.
 
 ## Inhalte
 
-Wir brauchen jedoch auch eine inhatliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und die nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
+Bei aller Offenheit brauchen wird jedoch für das projektbasierte Lernen auch eine inhaltliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und  nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
 
 ![Die 17 Ziele f&#xFC;r nachhaltige Entwicklung](../.gitbook/assets/grafik.png)
 
