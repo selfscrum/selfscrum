@@ -9,7 +9,7 @@ Das SELFSCRUM Lernmodell ist vor allem ein offenes Rahmenwerk. Dieser Rahmen wir
 1. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt für Schüler\* genug Gelegenheiten, selbstständig in der echten Welt zu lernen
 2. Wir glauben nicht an ein Standardcurriculum - es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
 
-![Rahmen des Lernmodells](../.gitbook/assets/grafik.png)
+![Rahmen des Lernmodells](../.gitbook/assets/rahmen.png)
 
 Je nach Ziel der Schule kann sie ein individuelles Lernmodell nun innerhalb dieses Rahmens eingliedern. Als erstes unterstütztes Beispiel werden wir hier in diesem Leitfaden das Projektbasierte Lernen betrachten. Es ist ein gut abgeschlossenes, bekanntes Modell, dass sich einfach in den Alltag integrieren lässt und den Lernenden viele inhaltliche Freiheiten gibt. Die Methodentreue im Projekt ist hingegen wichtig - hier ist es gut, eine gewisse Stabilität zu lehren und einzuüben, damit die Vorhaben auch gelingen.
 
