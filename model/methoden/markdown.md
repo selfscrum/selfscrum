@@ -1,6 +1,6 @@
 # Markdown
 
-Dies ist eine selbstbezügliche Seite, denn sie ist in Markdown geschrieben :)
+Dies ist eine selbstbezügliche Seite, denn sie ist in Markdown geschrieben :\)
 
 ## Was ist Markdown?
 
@@ -8,11 +8,11 @@ Markdown ist eine einfache Beschreibungssprache, die genutzt wird, um ohne spezi
 
 ## Wo finde ich weitere Infos?
 
-Es gibt einige Varianten bei verschiedenen Herstellern. Die Basisbefehle kann aber jede Variante.
-Die Sprache ist einfach zu erlernen. [Hier ist eine einfache Anleitung](https://drdanielappel.de/tipps-tools/markdown-eine-einfach-zu-erlernende-auszeichnungssprache/), die nicht nur für die Dokumentation hier, sondern auch in der Schule verwendet werden kann.
+Es gibt einige Varianten bei verschiedenen Herstellern. Die Basisbefehle kann aber jede Variante. Die Sprache ist einfach zu erlernen. [Hier ist eine einfache Anleitung](https://drdanielappel.de/tipps-tools/markdown-eine-einfach-zu-erlernende-auszeichnungssprache/), die nicht nur für die Dokumentation hier, sondern auch in der Schule verwendet werden kann.
 
 Und so sieht diese Seite in Markdown aus:
-```
+
+```text
 # Markdown
 
 Dies ist eine selbstbezügliche Seite, denn sie ist in Markdown geschrieben :) 
@@ -28,3 +28,4 @@ Die Sprache ist einfach zu erlernen. [Hier ist eine einfache Anleitung](https://
 
 Und so sieht diese Seite in Markdown aus:
 ```
+

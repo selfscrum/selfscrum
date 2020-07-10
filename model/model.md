@@ -15,7 +15,7 @@ Je nach Ziel der Schule kann sie ein individuelles Lernmodell nun innerhalb dies
 
 ## Inhalte
 
-Bei aller Offenheit brauchen wird jedoch für das projektbasierte Lernen auch eine inhaltliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und  nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
+Bei aller Offenheit brauchen wird jedoch für das projektbasierte Lernen auch eine inhaltliche Fokussierung, die nicht zu eng gefasst ist, damit echtes Lernen entstehen kann und nicht zu weit, damit die Lernprozesse sich nicht in Beliebigkeit verlieren. Wir haben daher die nächsten Lernzyklen auf die [17 globalen Ziele](https://17ziele.de/) für nachhaltige Entwicklung ausgerichtet.
 
 ![Die 17 Ziele f&#xFC;r nachhaltige Entwicklung](../.gitbook/assets/grafik.png)
 
@@ -66,4 +66,10 @@ Daher sind im SELFSCRUM Lernmodell auch begleitende Schulungen, Workshops und Ev
 Gerade in Deutschland sind die normativen Rahmenbedingungen sehr kompliziert. Durch unsere föderale Bildungsstruktur herrscht eine Kleinstaaterei, die jede private Bildungsinitiative, die überregional arbeiten will, stark fordert. Die strikte Schulpflicht trägt ebenfalls zu einer Verengung unserer Gestaltungsmöglichkeiten bei. Wir möchten daher lernen, besser mit diesen Rahmenbedingungen umzugehen, um alle Möglichkeiten kreativ auszuschöpfen und werden auch versuchen, auf diese Bedingungen im Sinne unserer Ideale einzuwirken. Letzteres ist jedoch eher ein Randaspekt der SELFSCRUM-Aktivitäten, da es mit EUDEC und BFAS bereits Vertretungen dieser Art gibt und wir uns eher auf die Gestaltung des Lernraums konzentrieren wollen.
 
 Eine letzte wichtige Rolle sind diejenigen Menschen und Organisationen, die uns mit ihren Mitteln helfen können, mit unseren Ideen besser voranzukommen. Da das private Bildungswesen chronisch unterfinanziert ist, ist die positive Gestaltung dieser Beziehungen für jeden Lernanbieter ein wichtiges Überlebenskriterium. Hier wollen wir Erfahrungswissen zur Verfügung stellen, um den Start von neuen Initiativen zu erleichtern.
+
+## Warnung vorab
+
+\(Frei nach einem Hinweies bei den Agile Learning Centers\)
+
+> Nichts von all dem wird so verlaufen, wie du es erwartest. Es wird laut sein, und es wird Farbe auf den Boden fallen, es wird in der ganzen Schule Verfolgungsjagden geben und Geschrei, wenn du um Konzentration bittest, und Streit darüber, wer an der Reihe ist, und Treffen, bei denen es sich anfühlt, als ob niemand aufpasst, und regnerische Nachmittage, an denen ihe euch alle gegenseitig unter die Haut geht. Lass dich von all dem nicht abschrecken. Denke daran, dass das Wachstum in Aufwärtsspiralen verläuft, dass das Schuljahr lang ist und dass das ganze Selbst, das du in die Schule mitbringst, gültig ist, auch wenn du dich frustriert oder überfordert fühlst. Du bist auf dieser Reise nicht allein - das Netzwerk ist voll von anderen, die sich mit den gleichen Fragen, Sorgen und Frustrationen herumgeschlagen haben. Scheue dich nicht, dich über die Community oder direkt bei den Initiatoren zu melden. Denke daran, dass dies ein lebendes Dokument ist. Erfinde neue Werkzeuge und Praktiken dort, wo sie gebraucht werden. Ändere Dinge, die nicht funktionieren. Höre darauf, was deine Mitmenschen brauchen. Sei agil.
 
