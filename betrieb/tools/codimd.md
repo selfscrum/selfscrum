@@ -1,4 +1,4 @@
-# codiMD
+# hedgeDoc
 
-[https://github.com/hackmdio/codimd](https://github.com/hackmdio/codimd)
+[https://hedgedoc.org/](https://hedgedoc.org/)
 

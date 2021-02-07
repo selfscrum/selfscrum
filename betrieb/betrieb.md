@@ -4,3 +4,5 @@ Wir wollen künftig Systeme und Prozesse als Service für Initiativen und Schule
 
 ![Die SELFSCRUM Betriebsprozesse](../.gitbook/assets/betrieb.png)
 
+
+

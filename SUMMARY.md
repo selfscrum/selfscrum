@@ -21,7 +21,7 @@
 
 * [Betriebsprozesse](betrieb/betrieb.md)
 * [Tools](betrieb/tools/README.md)
-  * [codiMD](betrieb/tools/codimd.md)
+  * [hedgeDoc](betrieb/tools/codimd.md)
   * [miro](betrieb/tools/miro.md)
   * [oncoo](betrieb/tools/oncoo.md)
 * [Das SELFSCRUM Entwicklungsmodell](betrieb/community.md)

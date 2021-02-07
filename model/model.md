@@ -6,8 +6,8 @@ description: Übersicht über die Struktur des Lernmodells
 
 Das SELFSCRUM Lernmodell ist vor allem ein offenes Rahmenwerk. Dieser Rahmen wird durch zwei Dimensionen aufgespannt:
 
-1. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt für Schüler\* genug Gelegenheiten, selbstständig in der echten Welt zu lernen
-2. Wir glauben nicht an ein Standardcurriculum - es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel zu lösen haben.
+1. Wir glauben nicht an künstlich hergestellte "Lernwelten" - es gibt für Schüler\*innen genug Gelegenheiten, selbstständig in der echten Welt zu lernen
+2. Wir glauben nicht an ein Standardcurriculum - es gibt genug Herausforderungen, die unsere moderne Gesellschaft hervorgerufen hat und die wir und vor allem unsere Kinder und Enkel\*innen zu lösen haben.
 
 ![Rahmen des Lernmodells](../.gitbook/assets/rahmen.png)
 
