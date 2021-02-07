@@ -4,7 +4,9 @@
 
 SELFSCRUM ist ein Open Source-Betriebssystem für offenes demokratisches Lernen.
 
-Was heißt das? Wir glauben, dass wir die vereinte Anstrengung vieler brauchen, um kindliches und jugendliches Lernen auf ein neues Niveau zu heben, das der heutigen Zeit und den zukünftigen großen Herausforderungen gerecht wird. Wir sind der festen Überzeugung, dass Schule und Lernen komplett neu gedacht werden muss.
+Was heißt das? 
+
+Wir glauben, dass wir die vereinte Anstrengung vieler brauchen, um kindliches und jugendliches Lernen auf ein neues Niveau zu heben, das der heutigen Zeit und den zukünftigen großen Herausforderungen gerecht wird. Wir sind der festen Überzeugung, dass Schule und Lernen komplett neu gedacht werden muss.
 
 Die gute Nachricht ist, dass es bereits viele gute Ansätze gibt. Sie kommen aus verschiedensten Richtungen. Sei es aus klassichen Schulen, wo viele motivierte Menschen mit guten Ideen versuchen, ein erstarrtes System am Leben zu halten, sei es aus der freien Wirtschaft, wo Wissen und Lernen heute überlebensnotwendige Eigenschaften sind und auch aus der weltweiten Open Source Gemeinschaft, in der sehr viel ohne kommerzielles Interesse geteilt und entwickelt wird. Und auch die gesellschaftlichen Kräfte der aktuellen Nachhaltigkeitsbewegungen, die gelernt haben, sich auf moderne Art und Weise zu organiseren, um ihren Anliegen eine Stimme zu geben, sind ein wichtiger Impulsgeber.
 
